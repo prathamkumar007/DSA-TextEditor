@@ -14,7 +14,7 @@ public class TextEditor {
 
     public void insertLine(int index, String line) {
         if (index < 0) {
-            System.out.println("Invalid index. Must be >= 0.");
+            System.out.println("Invalid index. Must be >= 1.");
             return;
         }
 
